@@ -12,7 +12,7 @@ public class Main {
         File file = new File("C:\\Users\\User\\OneDrive\\Documentos\\Faculdade\\CI&T\\chromedriver_win32\\chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
         WebDriver driver = new ChromeDriver();
-        driver.get("hTp://devmedia.com.br");
+        driver.get("https://github.com/lurosendo23/Selenium_ChromeDriver");
         String i = driver.getCurrentUrl();
         System.out.println(i);
         driver.close();
